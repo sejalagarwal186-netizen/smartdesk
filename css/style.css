@@ -1,0 +1,46 @@
+body {
+    background-color: lightblue;
+}
+
+h1 {
+    color: darkblue;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #f5f7fb;
+}
+
+.app {
+    display: grid;
+    grid-template-columns: 220px 1fr;
+    min-height: 100vh;
+}
+
+.sidebar {
+    padding: 24px;
+    background: #111827;
+    color: white;
+}
+
+.sidebar nav {
+    display: grid;
+    gap: 10px;
+}
+
+.main {
+    padding: 32px;
+}
+
+#dashboard {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 16px;
+}
+
+.card {
+    background: white;
+    padding: 20px;
+    border-radius: 12px;
+}
